@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/two"
+    tools:context="com.example.administrator.OfficeActivity">
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/bbb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_below="@id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="中国禾子医院有内科：变异性哮喘、 肺病、 咳嗽变异性哮喘肺炎、 慢阻肺、 肺纤维化间质性肺炎、 阻塞性肺气肿、 急性气管支气管炎支气管扩张、 气管炎、 慢性支气管炎支气管炎、 运动诱发哮喘、 哮喘呼吸疾病 ，现有医护人员100人，其中教授8人，副教授16人，研究生导师10人，每年培养研究生10-20人。\n年门诊量2万余人次，年收治住院患者5000人次。\n共有床位100张。承担各层次研究生、研究生、本科生、规培生教学任务。"
+        android:textSize="15dp" />
+
+</RelativeLayout>

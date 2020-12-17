@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="输入订单编号查询"
+            android:textSize="12sp"/>
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape"
+            android:text="查询订单"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"/>
+
+
+
+
+</RelativeLayout>

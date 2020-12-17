@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/three"
+    tools:context="com.example.administrator.YishengActivity">
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/c"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll_1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="余宵："
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已认证主任医师从业22年简介: 现任沈阳燕都哮喘病医院担任主治医师职位，从事呼吸疾病诊疗工作多年，对呼吸疾病颇有研究，擅长哮喘、支气管炎、慢阻肺、肺纤维 化、支气管扩张、肺大泡、尘肺、咳嗽等疾病，临床经验丰富。"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_3"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll_2"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_11"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="刘新："
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tv_22"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已认证主治医师从业22年简介: 现任沈阳燕都哮喘病医院担任主治医师职位，从事呼吸疾病诊疗工作30余年，对呼吸疾病颇有研究，擅长哮喘、支气管炎、肺气肿、慢阻肺、肺纤维 化、支气管扩张、肺大泡、尘肺、间质性肺炎、咳嗽等疾病，临床经验丰富。"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_4"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll_3"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_111"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="刘远："
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tv_222"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已认证主治医师从业28年简介: 现任沈阳燕都哮喘病医院担任主治医师职位，从事呼吸疾病诊疗工作30余年，对呼吸疾病颇有研究，擅长哮喘、支气管炎、肺纤维 化、支气管扩张、肺大泡、尘肺、间质性肺炎，临床经验丰富。"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/one"
+    tools:context="com.example.administrator.HospitalActivity">
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/aaa"
+        android:orientation="vertical">
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll_1"
+        android:layout_height="240dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="中国禾子医院："
+            android:textSize="16dp" />
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_below="@id/ll_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        中国禾子医院是一所专注于呼吸疾病诊疗的专科医院，集医疗、科研、预防、健康咨询于一体的现代化大型医疗机构，医院共9层，建筑面积6300平。\n主治：哮喘，支气管炎，气管扩张，慢阻肺，纤维化肺，老慢支，肺大泡等疾病。\n坚持高资历临床医生门诊坐诊制，并由众多重点学科带头人承担临床一线医疗任务，于全省多家名院建立协作关系，不定期邀请知名医生对重症病患联合会诊，始终坚持诊疗科学规范化及与时俱进的管理理念，在服务病人环节，坚持超前的就医体验、高品质的诊疗服务、体贴入微的人文关怀，逐渐成长为辽宁省乃至东北地区大型现代化呼吸专科医院。"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.NumberActivity">
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/tishi"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请仔细填写以下信息!"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_register1"
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textColor="#000"
+            android:textSize="18sp"
+
+            android:gravity="center_horizontal"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入姓名"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_register3"
+        android:layout_below="@+id/ll_register1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年龄"
+            android:textColor="#000"
+            android:textSize="18sp"
+
+            android:gravity="center_horizontal"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入年龄"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lll_1"
+        android:layout_below="@+id/ll_register3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="证件号"
+            android:textColor="#000"
+            android:textSize="18sp"
+
+            android:gravity="center_horizontal"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入身份证号"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:background="@null"
+            android:inputType="numberPassword"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_register4"
+        android:layout_below="@+id/lll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/et_keshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="科室"
+            android:textColor="#000"
+            android:textSize="18sp"
+
+            android:gravity="center_horizontal"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入科室"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_register5"
+        android:layout_below="@+id/ll_register4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/et_yis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="医生"
+            android:textColor="#000"
+            android:textSize="18sp"
+
+            android:gravity="center_horizontal"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_phone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入医生"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_register6"
+        android:layout_below="@+id/ll_register5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#fff">
+
+
+        <TextView
+            android:id="@+id/tv_age6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="病史"
+            android:textColor="#000"
+            android:textSize="18sp"
+
+            android:gravity="center_horizontal"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_phone4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入病史"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:background="@null" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_below="@+id/ll_register6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:text="挂 号"
+            android:background="#88f90a"
+            android:textColor="#fff"
+            android:textSize="18sp"
+
+            android:onClick="click"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

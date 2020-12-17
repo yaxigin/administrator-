@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请认真阅读须知:"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="1.考前三十分钟，考生需持带有照片的有效证件(身份证、临时身份证、护照和港澳台通行证)和自行打印的准考证进入规定的考场。
+\n2.考试期间考生可以在考桌上方的可携带物品：签字笔、铅笔、橡皮、二十四色彩笔(包含黑色、蓝色、棕色、绿色、灰色、橙色、粉色、紫色、红色、黄色)铅笔盒、塑料瓶装水、药品、纸巾和准考证。
+\n3.考试期间需放在指定区域的禁止携带物品：处于关闭状态下的手机、相机或任何其他电子产品、字典、笔记本、修正液/修正带等、纸张、书包、手提包、行李箱。
+\n4.考场内不得相互借用文具。严禁在考场内饮食。
+\n5.考生入场后，按号入座，将本人《准考证》放在课桌上，以便核验。
+\n6.统一开考信号发出后才能开始答题。
+\n7.笔试开考10分钟内，允许迟到考生进入考场参加考试，考试结束时间按照统一规定结束。开考10分钟后，禁止迟到考生入场考试。考生开考三十分钟后，方准交卷出场的，出场后不得进场续考。
+\n8.考生领到试卷后，必须先在指定位置准确，清楚地填写姓名，准考证号，座位号等栏目。
+\n9.考生遇试卷分发错误及试题字迹不清等问题可举手询问，监考人员应当众答复；涉及试题内容的疑问，不得向监考人员询问。
+\n10.考生在考场内必须保持安静，严格遵守考场纪律，不准交头接耳，左顾右盼；不准偷看，抄袭他人答案；不准夹带，冒名或换卷，对于违反考场规则，不服从监考人员管理和舞弊者按违反考场规则处理，情节严重的将取消本次考试资格或限期停考。
+\n11.考生离开考场时必须交卷，不准携带试卷离开考场。离开考场后不准在考场附近逗留和交谈。
+"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已看完，点击下一步"
+        android:textSize="20sp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
